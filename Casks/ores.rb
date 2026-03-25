@@ -14,22 +14,22 @@ cask "ores" do
   on_macos do
     on_intel do
       url "https://github.com/rigsecurity/ores/releases/download/v#{version}/ores_#{version}_darwin_amd64.tar.gz"
-      sha256 "2a02abac5ebd0736d2fca30ef88edbf48146fc8827502df1428f598da1484dba"
+      sha256 "53cf2d6c3d87cc9cd6491040a7d982e30421e959912d5f18025657532cd12810"
     end
     on_arm do
       url "https://github.com/rigsecurity/ores/releases/download/v#{version}/ores_#{version}_darwin_arm64.tar.gz"
-      sha256 "aafb4e4b68f5910d0da62abec961356ac693dccd70b8bbf2bcadd0a4ade2af43"
+      sha256 "9cec6da59e84739f0ffef6bc241eba4962a9ddbbcf8a1b11d0807179482ae2fe"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/rigsecurity/ores/releases/download/v#{version}/ores_#{version}_linux_amd64.tar.gz"
-      sha256 "da4518fda116755b6a5df848f7bad5f0419bd29238be68dd7996935456780e57"
+      sha256 "0c5def32e9d6a620f10def24413664be2d901be53efaf1f02d5535200cc22e5d"
     end
     on_arm do
       url "https://github.com/rigsecurity/ores/releases/download/v#{version}/ores_#{version}_linux_arm64.tar.gz"
-      sha256 "177ffe1afe6da718f2b8891f87edbb4f9c7a16308526d8b0ea51faf6bf986645"
+      sha256 "1a3404286af04f93df5cb043133f1c65fd49455343e3a4ae93cb0a6757a932b7"
     end
   end
 
